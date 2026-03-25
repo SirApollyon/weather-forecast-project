@@ -4,3 +4,4 @@ __pycache__/
 .ipynb_checkpoints/
 src/final_model.pkl
 src/label_encoder.pkl
+src/final_model.pkl

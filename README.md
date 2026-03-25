@@ -148,3 +148,11 @@ jupyter notebook
 notebooks/weather_prediction.ipynb
 
 Author: Roy Franke
+
+## 📊 Model Comparison
+
+![Model Comparison](reports/model_comparison_f1.png)
+
+## 🔍 Feature Importance
+
+![Feature Importance](reports/feature_importance_tuned_rf.png)

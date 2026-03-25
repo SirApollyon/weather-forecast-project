@@ -113,6 +113,23 @@ Additional analysis:
 - Non-linear relationships play an important role
 - Ensemble models (Random Forest) perform better than linear models
 
+## 🌐 Streamlit App
+
+A simple Streamlit app was developed to make the final machine learning model interactive.
+
+The app allows the user to enter weather conditions manually and predicts whether it will rain tomorrow.
+
+Features of the app:
+- interactive input form in the sidebar
+- prediction of `RainTomorrow`
+- probability output for rainfall
+- display of the entered input data
+
+Run the app locally with:
+
+```bash
+streamlit run src/streamlit_app.py
+
 ---
 
 ## 📁 Project Structure
@@ -125,6 +142,9 @@ weather-forecast-project/
  - model_comparison_f1.png
  - feature_importance_tuned_rf.png
  src
+ - final_model.pkl
+ - label_encoder.pkl
+ - streamlit_app.py
  README.md
 
 
@@ -146,6 +166,22 @@ pip install pandas numpy matplotlib scikit-learn jupyter seaborn
 jupyter notebook
 
 notebooks/weather_prediction.ipynb
+
+2. Install dependencies:
+
+```bash
+pip install pandas numpy matplotlib scikit-learn jupyter seaborn streamlit joblib
+
+3. Run the Streamlit App
+
+To start the interactive prediction app locally, run:
+
+```bash
+streamlit run src/streamlit_app.py
+
+http://localhost:8501
+
+
 
 Author: Roy Franke
 

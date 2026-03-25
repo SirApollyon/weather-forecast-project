@@ -1,0 +1,8 @@
+> git push origin main:main
+remote: error: Trace: c4b65ad8843a8b26aa085627b915f3d073798b9c66343c315456b29abeca56fb        
+remote: error: See https://gh.io/lfs for more information.        
+remote: error: File src/final_model.pkl is 312.11 MB; this exceeds GitHub's file size limit of 100.00 MB        
+remote: error: GH001: Large files detected. You may want to try Git Large File Storage - https://git-lfs.github.com.        
+To https://github.com/SirApollyon/weather-forecast-project.git
+ ! [remote rejected] main -> main (pre-receive hook declined)
+error: failed to push some refs to 'https://github.com/SirApollyon/weather-forecast-project.git'

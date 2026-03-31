@@ -181,7 +181,10 @@ streamlit run src/streamlit_app.py
 
 http://localhost:8501
 
+## Note
 
+The trained model file is not included in this repository because it exceeds GitHub's file size limit.
+To run the Streamlit app, the model must first be generated locally by executing the notebook and exporting the trained model.
 
 Author: Roy Franke
 
